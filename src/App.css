@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900");
+.App {
+}
+.NavBar {
+  height: 70px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.LogoImage {
+  margin-left: 30px;
+  margin-top: 22px;
+}
+.PhotoGrid {
+  text-align: center;
+  margin-top: 2em;
+}
+.PhotoGridImage {
+  /* max-width: 395.91px; */
+  max-width: 90%;
+  height: auto;
+}
+.OnlineExpTxt {
+  /* text-align: center; */
+  justify-content: left;
+  margin: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+}
+.OnlineExpTxtHeading {
+  font-size: 36px;
+  font-weight: 600;
+}
+.OnlineExpTxtParagraph {
+  font-size: 16px;
+  font-weight: 300;
+}
+.CardComponent {
+  /* display: flex;
+  flex: 0 0 auto;
+  flex-direction: column; */
+  font-family: "Poppins", sans-serif;
+  margin-left: 5%;
+  margin-right: 0;
+  /* width: 176px; */
+}
+.MainPic {
+  width: 176px;
+  border-radius: 12px;
+}
+.StarPic {
+  width: 14px;
+  align-self: center;
+  margin-right: 0.2em;
+}
+.Line1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: lighter;
+  width: 176px;
+}
+.StarLine {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.4em;
+  width: 176px;
+}
+.Line2 {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  font-weight: 300;
+  font-size: 12px;
+  width: 176px;
+}
+.Line3 {
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 12px;
+  width: 176px;
+}
+.Line1Span {
+  color: #918e9b;
+}
+.Card {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  position: relative;
+}
+.CardBadge {
+  position: absolute;
+  background-color: white;
+  margin-top: 6px;
+  margin-left: 4px;
+  white-space: nowrap;
+  width: 5em;
+  text-align: center;
+  font-weight: 600;
+}
